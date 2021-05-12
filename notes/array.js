@@ -15,6 +15,7 @@ console.log(fruits[1]);
 console.log(fruits[2]);
 console.log(fruits[fruits.length - 1]);
 console.clear();
+
 // 3. Looping over an array
 // print all fruits
 // a. for
@@ -40,11 +41,11 @@ const poped = fruits.pop();
 fruits.pop();
 console.log(fruits);
 
-// unshift: add an item to the benigging
+// unshift: add an item to the beginning
 fruits.unshift('🍓', '🍋');
 console.log(fruits);
 
-// shift: remove an item from the benigging
+// shift: remove an item from the beginning
 fruits.shift();
 fruits.shift();
 console.log(fruits);
